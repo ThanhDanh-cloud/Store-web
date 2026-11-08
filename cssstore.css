@@ -1,0 +1,64 @@
+body{
+  background-color: #6B7B8C;
+}
+h1{
+  color: #E879F9;
+	text-align: center;
+	margin: 10px;
+	background-color: #160D2B;
+}
+img{
+	border-width: 5px;
+	border-style: solid;
+	border-color: #DFE6EF;
+	padding-block: 10px;
+}
+div{
+	border-width: 10px;
+	border-style: solid;
+	border-color: orange;
+	padding-block: 10px;
+}
+#email{
+	text-align: center;
+}
+#sdt{
+	text-align: center;
+}
+
+
+
+.buybutton{
+	padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #222;
+    border: 3px solid #ff0000;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    animation: ledGlow 4s linear infinite;
+}
+ @keyframes ledGlow {
+    0% {
+      border-color: #ff0000;
+      box-shadow: 0 0 12px #ff0000;
+    }
+    25% {
+      border-color: #00ff00;
+      box-shadow: 0 0 12px #00ff00;
+    }
+    50% {
+      border-color: #00ffff;
+      box-shadow: 0 0 12px #00ffff;
+    }
+    75% {
+      border-color: #ffff00;
+      box-shadow: 0 0 12px #ffff00;
+    }
+    100% {
+      border-color: #ff0000;
+      box-shadow: 0 0 12px #ff0000;
+    }
+  }
